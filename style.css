@@ -79,6 +79,7 @@ body{
     background-color: black;
     position: relative;
     top: 45px;
+    border: 2px solid burlywood;
 }
 #light-mode{
     position: relative;
