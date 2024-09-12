@@ -40,9 +40,7 @@ body{
     font-weight: normal;
     font-style: normal;
 }
-#sub-head{
-    font-size: 13px;
-}
+
 .header-container{
     background-image: url("Pics/download.jpg");
     background-repeat: no-repeat;
