@@ -119,8 +119,15 @@ body{
     font-size: 20px;
     text-align: center;
 }
-.img-overflow, #para-recipe{
+#recipe-7, #para-recipe{
     position: relative;
     top: 10px;
 }
+
+.recipe-gen-container{
+    height: 300px;
+    width: 100vw;
+    visibility: hidden;
+}
+
 /* -----------------------------------------------------------main----------------------------------------------------------- */
