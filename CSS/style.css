@@ -15,12 +15,12 @@ body{
     gap: 2rem;
     margin-right: 300px;
 }
-#nav-items{
+.nav-items{
     font-size: 20px;
     list-style: none;
     cursor: pointer;
 }
-#nav-items a{
+.nav-items a{
     color: black;
     text-decoration: none;
 
@@ -80,11 +80,13 @@ body{
     border: 2px solid burlywood;
 }
 #light-mode{
+    width: 25px;
     position: relative;
     right: 52px;
     cursor: pointer;
 }
 #dark-mode{
+    width: 20px;
     position: relative;
     visibility: hidden;
     cursor: pointer;
@@ -107,7 +109,7 @@ body{
     flex-wrap: wrap;
     position: relative;
 }
-#recipe-Img{
+.recipe-Img{
     cursor: pointer;
     height: 300px;
     width: 300px;
