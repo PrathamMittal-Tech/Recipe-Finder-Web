@@ -92,7 +92,7 @@ body{
 
 /* -----------------------------------------------------------main----------------------------------------------------------- */
 .recipe-container{
-    height: auto;
+    height: 120rem;
     width: 100vw;
     margin-left: 35px;
     margin-top: 20px;
@@ -125,9 +125,28 @@ body{
 }
 
 .recipe-gen-container{
-    height: 300px;
+    height: auto;
     width: 100vw;
     visibility: hidden;
 }
 
+.contact-us{
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: greenyellow;
+}
+#contact-heading{
+    margin-top: 10px;
+    font-size: 35px;
+}
+#contact-input{
+    height: 35px;
+    width: 375px;
+    border-radius: 30px;
+    margin-top: 25px;
+    padding-left: 10px;
+}
 /* -----------------------------------------------------------main----------------------------------------------------------- */
