@@ -1,0 +1,20 @@
+
+.contact-us{
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #c94258;
+}
+#contact-heading{
+    margin-top: 10px;
+    font-size: 35px;
+}
+#contact-input{
+    height: 35px;
+    width: 375px;
+    border-radius: 30px;
+    margin-top: 25px;
+    padding-left: 10px;
+}

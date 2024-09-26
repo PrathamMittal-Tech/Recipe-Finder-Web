@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 
 *{
     margin: 0;
@@ -34,10 +34,12 @@ body{
     margin-right: 50px;
 }
 #head-1{
-    font-size: 30px;
-    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    position: relative;
+    bottom: 5px;
+    font-family: "Caveat", cursive;
     font-optical-sizing: auto;
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
 }
 
@@ -88,6 +90,5 @@ body{
 #dark-mode{
     width: 20px;
     position: relative;
-    visibility: hidden;
     cursor: pointer;
 }
