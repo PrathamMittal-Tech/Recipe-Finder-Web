@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 .recipe-container{
     height: 120rem;
     width: 100vw;
@@ -29,13 +32,28 @@
     font-size: 20px;
     text-align: center;
 }
-#recipe-7, #para-recipe{
+#recipe-7{
     position: relative;
     top: 10px;
 }
-
-.recipe-gen-container{
-    height: auto;
+.contact-us{
+    height: 230px;
     width: 100vw;
-    visibility: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #575353;
+}
+#contact-heading{
+    margin-top: 10px;
+    font-size: 35px;
+    color: #fff;
+    font-weight: normal;
+}
+#contact-input{
+    height: 35px;
+    width: 375px;
+    border-radius: 30px;
+    margin-top: 25px;
+    padding-left: 10px;
 }

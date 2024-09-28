@@ -4,9 +4,6 @@
     margin: 0;
     padding: 0;
 }
-body{
-    overflow-x: hidden;
-}
 .nav-items-container{
     height: 3rem;
     display: flex;
@@ -80,15 +77,4 @@ body{
     position: relative;
     top: 45px;
     border: 2px solid burlywood;
-}
-#light-mode{
-    width: 25px;
-    position: relative;
-    right: 52px;
-    cursor: pointer;
-}
-#dark-mode{
-    width: 20px;
-    position: relative;
-    cursor: pointer;
 }
