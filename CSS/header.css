@@ -1,16 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-}
-.nav-items-container{
+.nav-items-container,.list-items{
     height: 3rem;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
     gap: 2rem;
-    margin-right: 300px;
 }
 .nav-items{
     font-size: 20px;
@@ -18,26 +13,32 @@
     cursor: pointer;
 }
 .nav-items a{
-    color: black;
+    color: #000;
+    font-weight: bold;
     text-decoration: none;
 
     &:hover{
-        color: rgb(51, 238, 51);
+        color: #866fb4;
     }
 }
-.nav-subnav{
-    display: flex;
-    flex-direction: column;
-    margin-right: 50px;
-}
 #head-1{
+    margin-left: 25px;
     font-size: 40px;
-    position: relative;
-    bottom: 5px;
-    font-family: "Caveat", cursive;
-    font-optical-sizing: auto;
-    font-weight: bold;
+    font-family: "Alex Brush", cursive;
+    font-weight: 400;
     font-style: normal;
+    cursor: pointer;
+}
+#head-1 a{
+    color: black;
+    text-decoration: none;
+}
+
+.header-search{
+    width: 250px;
+    height: 25px;
+    border-radius: 30px;
+    padding-left: 8px;
 }
 
 .header-container{
@@ -51,22 +52,12 @@
     height: 500px;
     width: 100vw;
 }
-.header-search, .btn{
-    position: relative;
-    top: 38px;
-}
 
 .header-heading{
     text-transform: uppercase;
     font-weight: bolder;
     font-size: 100px;
     margin-bottom: 30px;
-}
-.header-search{
-    width: 500px;
-    height: 30px;
-    border-radius: 30px;
-    padding-left: 8px;
 }
 .recipe-btn{
     padding: 8px;
@@ -77,4 +68,15 @@
     position: relative;
     top: 45px;
     border: 2px solid burlywood;
+}
+#search-img{
+    width: 45px;
+    height: 20px;
+    object-fit: contain;
+    padding: 7px;
+    position: relative;
+    right: 25px;
+    background-color: yellow;
+    border-radius: 30px;
+    cursor: pointer;
 }

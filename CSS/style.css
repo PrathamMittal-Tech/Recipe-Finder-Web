@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     overflow-x: hidden;
 }
@@ -35,25 +42,4 @@ body{
 #recipe-7{
     position: relative;
     top: 10px;
-}
-.contact-us{
-    height: 230px;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: #575353;
-}
-#contact-heading{
-    margin-top: 10px;
-    font-size: 35px;
-    color: #fff;
-    font-weight: normal;
-}
-#contact-input{
-    height: 35px;
-    width: 375px;
-    border-radius: 30px;
-    margin-top: 25px;
-    padding-left: 10px;
 }

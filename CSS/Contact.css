@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.contact-container{
+    margin-top: 75px;
+    height: 450px;
+    width: 450px;
+    background-color: rgb(48, 48, 220);
+    border-radius: 30px;
+}
